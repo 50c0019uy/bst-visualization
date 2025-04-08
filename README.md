@@ -20,7 +20,7 @@ Binary Search Tree Visualization
 
 以下から見ることができます。
 
-- [https://tjkendev.github.io/bst-visualization/](https://tjkendev.github.io/bst-visualization/)
+- [https://50c0019uy.github.io/bst-visualization/](https://50c0019uy.github.io/bst-visualization/)
 
 ## ブログ
 
