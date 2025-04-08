@@ -7,7 +7,7 @@ class Node extends BaseNode {
   }
 }
 
-class Treap {
+class InsertEraseBasedTreap {
   constructor() {
     this.clear();
     this.update_nodes = [];
@@ -145,7 +145,7 @@ class Treap {
 }
 
 window.onload = () => {
-  const tree = new Treap();
+  const tree = new InsertEraseBasedTreap();
 
   const node_view = {}, node_map = {};
   let tl = null;
