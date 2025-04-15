@@ -15,7 +15,8 @@ Binary Search Tree Visualization
 - Bottom-Up Splay Tree
 - Top-Down Splay Tree
 - Scapegoat Tree
-- Treap
+- Insert-Erase Based Treap
+- Merge-Split Based Treap
 - Randomized Binary Search Tree
 
 以下から見ることができます。

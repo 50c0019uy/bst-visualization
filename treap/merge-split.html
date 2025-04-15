@@ -1,0 +1,53 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Visualization (Merge-Split Based Treap)</title>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/app.css" />
+    <script type="text/javascript" src="../js/app-common.js"></script>
+    <script type="text/javascript" src="../js/ms-treap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Visualization (Merge-Split Based Treap)</h1>
+      <p>追加できるKeyの値の範囲は 0 ~ 999 です</p>
+      <p>priorityの値が大きいほどノードの輪郭は赤くなります</p>
+      <p>重め</p>
+      <div class="query-component">
+        <div>
+          <input class="node-key" type="text" placeholder="0 ~ 999" />
+          <button class="add" type="button">追加/検索</button>
+          <button class="add-inc" type="button">+1追加/検索</button>
+          <button class="add-dec" type="button">-1追加/検索</button>
+          <button class="remove" type="button">削除</button>
+        </div>
+        <div>
+          <button class="add-random" type="button">ランダム追加/検索</button>
+          <button class="remove-random" type="button">ランダム削除</button>
+        </div>
+      </div>
+      <div class="slider-component">
+        <span>アニメーション:</span>
+        <input type="range" class="anime-slider" />
+      </div>
+      <div>
+        <svg class="canvas">
+          <g class="edges"></g>
+          <g class="nodes"></g>
+        </svg>
+      </div>
+      <div>
+        <h3>参考</h3>
+        <ul>
+          <li><a href="https://www.slideshare.net/iwiwi/2-12188757">プログラミングコンテストでのデータ構造 2　～平衡二分探索木編～</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="../index.html">戻る</a>
+      </div>
+    </div>
+  </body>
+</html>
